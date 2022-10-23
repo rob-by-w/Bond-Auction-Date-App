@@ -2,6 +2,19 @@
 	background-color: #b1b2ff;
 }
 
+.bg-main {
+	background-color: #EEF1FF;
+}
+
+.bg-ternary{
+	background-color: #AAC4FF;
+}
+
+.bg-secondary{
+	background-color: #D2DAFF;
+}
+
+
 .navbar-brand {
 	font-family: "Inspiration", cursive;
 	font-size: 1.5rem;
@@ -9,4 +22,15 @@
 
 .nav-item {
   font-family: 'Open Sans', sans-serif;
+}
+
+.caption {
+	font-size: smaller;
+	padding-top: 0;
+}
+
+.border-color {
+	border: 3px solid ;
+	border-color: #AAC4FF;
+	border-radius: 15%;
 }
