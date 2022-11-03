@@ -3,17 +3,16 @@
 }
 
 .bg-main {
-	background-color: #EEF1FF;
+	background-color: #eef1ff;
 }
 
-.bg-ternary{
-	background-color: #AAC4FF;
+.bg-ternary {
+	background-color: #aac4ff;
 }
 
-.bg-secondary{
-	background-color: #D2DAFF;
+.bg-secondary {
+	background-color: #d2daff;
 }
-
 
 .navbar-brand {
 	font-family: "Inspiration", cursive;
@@ -21,7 +20,7 @@
 }
 
 .nav-item {
-  font-family: 'Open Sans', sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 
 .caption {
@@ -30,7 +29,12 @@
 }
 
 .border-color {
-	border: 3px solid ;
-	border-color: #AAC4FF;
+	border: 3px solid;
+	border-color: #aac4ff;
 	border-radius: 15%;
+}
+
+.footer {
+	background-color: #aac4ff;
+	height: 100px;
 }
