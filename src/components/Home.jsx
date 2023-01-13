@@ -4,17 +4,16 @@ function Home() {
 	return (
 		<div className="bg-main">
 			<div className="container py-3 text-center">
-				<div className="row justify-content-center">
-					<h1 className="mt-3 col-8">Bond Auction Date</h1>
+				<div className="row justify-content-center mt-3">
+					<h1 className="col-8">Bond Auction Date</h1>
 				</div>
-				<div className="row justify-content-center">
+				<div className="row justify-content-center mt-3">
 					<div className="col-8">
 						<p>
 							This website will show you the next auction date of Japanese
-							Government Bond (JGB) and US Treasury (UST).
-							Offical auction calendars are availabe at Japan Ministry of
-							Finance website for JGB and U.S. Department of the Treasury
-							website for UST.
+							Government Bond (JGB) and US Treasury (UST). Offical auction
+							calendars are availabe at Japan Ministry of Finance website for
+							JGB and U.S. Department of the Treasury website for UST.
 						</p>
 					</div>
 				</div>

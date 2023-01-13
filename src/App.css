@@ -1,9 +1,21 @@
+html,
+body,
+main,
+#root {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+}
+
 .bg-header {
 	background-color: #b1b2ff;
 }
 
 .bg-main {
 	background-color: #eef1ff;
+	min-height: 80%;
 }
 
 .bg-ternary {
@@ -12,6 +24,10 @@
 
 .bg-secondary {
 	background-color: #d2daff;
+}
+
+.navbar {
+	min-height: 10%;
 }
 
 .navbar-brand {
@@ -36,5 +52,5 @@
 
 .footer {
 	background-color: #aac4ff;
-	height: 100px;
+	min-height: 10%;
 }
