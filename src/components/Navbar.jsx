@@ -1,6 +1,13 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 function Navbar() {
+	const [currentPath, setCurrentPath] = useState(window.location.pathname);
+
+	useEffect(() => {
+		console.log(currentPath);
+		setCurrentPath(window.location.pathname);
+	}, []);
+
 	return (
 		<nav className="navbar navbar-expand-lg bg-header">
 			<div className="container-fluid container">
@@ -9,17 +16,26 @@ function Navbar() {
 				</a>
 				<ul className="navbar-nav me-auto mb-2 mb-lg-0">
 					<li className="nav-item">
-						<a className="nav-link active" href="/">
+						<a
+							className={"nav-link " + (currentPath === "/" ? "active" : "")}
+							href="/"
+						>
 							Home
 						</a>
 					</li>
 					<li className="nav-item">
-						<a className="nav-link" href="/jgb">
+						<a
+							className={"nav-link " + (currentPath === "/jgb" ? "active" : "")}
+							href="/jgb"
+						>
 							JGB
 						</a>
 					</li>
 					<li className="nav-item">
-						<a className="nav-link" href="/ust">
+						<a
+							className={"nav-link " + (currentPath === "/ust" ? "active" : "")}
+							href="/ust"
+						>
 							UST
 						</a>
 					</li>
