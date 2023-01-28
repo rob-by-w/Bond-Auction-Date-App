@@ -9,13 +9,18 @@ body {
 	height: 100%;
 }
 
+ol {
+	margin-left: 0;
+	padding-left: 3em;
+}
+
 .bg-header {
 	background-color: #b1b2ff;
 }
 
 .bg-main {
 	background-color: #eef1ff;
-	min-height: 80%;
+	/* min-height: 80%; */
 }
 
 .bg-ternary {
@@ -27,7 +32,7 @@ body {
 }
 
 .navbar {
-	min-height: 10%;
+	/* min-height: 10%; */
 }
 
 .navbar-brand {
@@ -52,5 +57,5 @@ body {
 
 .footer {
 	background-color: #aac4ff;
-	min-height: 10%;
+	/* min-height: 10%; */
 }
