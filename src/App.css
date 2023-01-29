@@ -20,7 +20,7 @@ ol {
 
 .bg-main {
 	background-color: #eef1ff;
-	/* min-height: 80%; */
+	/* min-height: 86.9%; */
 }
 
 .bg-ternary {
@@ -58,4 +58,13 @@ ol {
 .footer {
 	background-color: #aac4ff;
 	/* min-height: 10%; */
+}
+
+.anchor-icon {
+	font-size: 2rem;
+	color: black;
+}
+
+.anchor-icon:hover {
+	color: #eef1ff;
 }
