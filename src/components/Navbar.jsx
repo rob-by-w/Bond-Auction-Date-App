@@ -39,6 +39,17 @@ function Navbar() {
 						<li className="nav-item">
 							<a
 								className={
+									"nav-link " +
+									(currentPath === "/how-it-works" ? "active" : "")
+								}
+								href="/how-it-works"
+							>
+								How
+							</a>
+						</li>
+						<li className="nav-item">
+							<a
+								className={
 									"nav-link " + (currentPath === "/jgb" ? "active" : "")
 								}
 								href="/jgb"
