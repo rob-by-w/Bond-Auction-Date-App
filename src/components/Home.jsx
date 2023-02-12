@@ -14,11 +14,12 @@ function Home() {
 							<a
 								target="_blank"
 								href="https://www.mof.go.jp/english/policy/jgbs/auction/calendar/index.htm"
+								className="link"
 							>
 								{" "}
 								Japan Ministry of Finance website{" "}
 								<i
-									className="fa-solid fa-arrow-up-right-from-square"
+									className="fa-solid fa-arrow-up-right-from-square fa-sm"
 									target="_blank"
 								></i>
 							</a>{" "}
@@ -26,10 +27,11 @@ function Home() {
 							<a
 								target="_blank"
 								href="https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf"
+								className="link"
 							>
 								U.S. Department of the Treasury website{" "}
 								<i
-									className="fa-solid fa-arrow-up-right-from-square"
+									className="fa-solid fa-arrow-up-right-from-square fa-sm"
 									target="_blank"
 								></i>
 							</a>{" "}
@@ -113,7 +115,7 @@ function Home() {
 				<div className="row">
 					<img src="/home_page.png" className="col-6 mx-auto"></img>
 					<caption className="text-center caption">
-						<a href="https://www.freepik.com/free-vector/stack-money-gold-coins-3d-cartoon-style-icon-coins-with-dollar-sign-wad-cash-currency-flat-vector-illustration-wealth-investment-success-savings-economy-profit-concept_29119378.htm#query=finance&position=1&from_view=search&track=sph">
+						<a target="_blank" href="https://www.freepik.com/free-vector/stack-money-gold-coins-3d-cartoon-style-icon-coins-with-dollar-sign-wad-cash-currency-flat-vector-illustration-wealth-investment-success-savings-economy-profit-concept_29119378.htm#query=finance&position=1&from_view=search&track=sph">
 							Image by pch.vector
 						</a>{" "}
 						on Freepik

@@ -84,8 +84,13 @@ export default function AuctionDateJgb() {
 															href={bond.announcement_link}
 															target="_blank"
 															rel="noopener noreferrer"
+															className="link"
 														>
-															Here
+															Here {" "}
+															<i
+																className="fa-solid fa-arrow-up-right-from-square fa-sm"
+																target="_blank"
+															></i>
 														</a>
 													)}
 												</td>

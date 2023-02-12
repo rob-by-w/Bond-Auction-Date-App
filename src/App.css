@@ -7,11 +7,30 @@ main,
 
 body {
 	height: 100%;
+	font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Raleway", sans-serif;
+}
+
+table {
+	font-family: "Open Sans", sans-serif;
 }
 
 ol {
 	margin-left: 0;
 	padding-left: 3em;
+}
+
+caption > a {
+	text-decoration: none;
+	color: inherit;
 }
 
 .bg-header {
@@ -20,7 +39,6 @@ ol {
 
 .bg-main {
 	background-color: #eef1ff;
-	/* min-height: 86.9%; */
 }
 
 .bg-ternary {
@@ -36,7 +54,7 @@ ol {
 }
 
 .navbar-brand {
-	font-family: "Inspiration", cursive;
+	font-family: "Staatliches", cursive;
 	font-size: 1.5rem;
 }
 
@@ -58,6 +76,15 @@ ol {
 .footer {
 	background-color: #aac4ff;
 	/* min-height: 10%; */
+}
+
+.link {
+	color: black;
+	text-decoration: none;
+}
+
+.link:hover {
+	color: #b1b2ff;
 }
 
 .anchor-icon {
