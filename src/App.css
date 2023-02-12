@@ -100,3 +100,21 @@ caption > a {
 	justify-content: center;
 	margin: 3rem;
 }
+
+.show-on-short {
+	visibility: hidden;
+}
+
+.show-on-long {
+	visibility: visible;
+}
+
+@media (max-height: 950px) {
+	.show-on-short {
+		visibility: visible;
+	}
+
+	.show-on-long {
+		visibility: hidden;
+	}
+}
